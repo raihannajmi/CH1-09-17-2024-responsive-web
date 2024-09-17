@@ -1,0 +1,32 @@
+h1 {
+  color: limegreen;
+  font-family: "Fascinate Inline", system-ui;
+}
+
+.container {
+  background-color: blue;
+  min-height: 500px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.col {
+  background-color: aliceblue;
+  min-height: 200px;
+  width: 30%;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+  h1 {
+    color: darkorange;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 400px) {
+  h1 {
+    color: blue;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
