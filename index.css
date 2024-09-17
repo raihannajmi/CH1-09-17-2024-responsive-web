@@ -4,22 +4,30 @@ h1 {
 }
 
 .container {
-  background-color: blue;
+  background-color: #3f1be6;
   min-height: 500px;
   max-width: 1024px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .col {
   background-color: aliceblue;
   min-height: 200px;
   width: 30%;
+  margin-bottom: 40px;
 }
 
 /* Tablet view */
 @media (max-width: 768px) {
   h1 {
     color: darkorange;
+  }
+
+  .col {
+    width: 45%;
   }
 }
 
@@ -28,5 +36,9 @@ h1 {
   h1 {
     color: blue;
     font-family: "Times New Roman", Times, serif;
+  }
+
+  .col {
+    width: 100%;
   }
 }
